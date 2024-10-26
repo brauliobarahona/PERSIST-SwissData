@@ -1,116 +1,123 @@
 ---
 layout: default
-title: Simple Jekyll Webpage Template
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <style>
-        /* General styles */
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            margin: 0;
-        }
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-        /* Sidebar styles */
-        .sidebar {
-            width: 200px;
-            background-color: #333;
-            color: #fff;
-            position: fixed;
-            height: 100%;
-            padding: 20px;
-        }
+[Link to another page](./another-page.html).
 
-        .sidebar h2 {
-            font-size: 18px;
-            color: #ddd;
-            margin-top: 0;
-        }
+There should be whitespace between paragraphs.
 
-        .sidebar a {
-            color: #ccc;
-            text-decoration: none;
-            display: block;
-            margin: 10px 0;
-        }
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-        .sidebar a:hover {
-            color: #fff;
-        }
+# Header 1
 
-        /* Main content styles */
-        .main-content {
-            margin-left: 220px;
-            padding: 20px;
-            flex-grow: 1;
-        }
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-        h1 {
-            font-size: 24px;
-        }
+## Header 2
 
-        /* Table styles */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
 
-        table, th, td {
-            border: 1px solid #ccc;
-            padding: 10px;
-            text-align: left;
-        }
+### Header 3
 
-        th {
-            background-color: #f4f4f4;
-        }
-    </style>
-</head>
-<body>
-    <!-- Sidebar -->
-    <div class="sidebar">
-        <h2>Navigation</h2>
-        <a href="#section1">Section 1</a>
-        <a href="#section2">Section 2</a>
-        <a href="#section3">Section 3</a>
-    </div>
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
 
-    <!-- Main content -->
-    <div class="main-content">
-        <h1>{{ page.title }}</h1>
-        <p>This is the main content area. Click on the links in the sidebar to jump to different sections.</p>
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
 
-        <h2 id="section1">Section 1</h2>
-        <p>Content for Section 1.</p>
+#### Header 4
 
-        <h2 id="section2">Section 2</h2>
-        <p>Content for Section 2.</p>
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
 
-        <h2 id="section3">Section 3 - Table Example</h2>
-        <table>
-            <tr>
-                <th>Column 1</th>
-                <th>Column 2</th>
-                <th>Column 3</th>
-            </tr>
-            <tr>
-                <td><a href="https://example.com">Example Link 1</a></td>
-                <td><a href="https://example.com">Example Link 2</a></td>
-                <td><a href="https://example.com">Example Link 3</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://example.com">Example Link 4</a></td>
-                <td><a href="https://example.com">Example Link 5</a></td>
-                <td><a href="https://example.com">Example Link 6</a></td>
-            </tr>
-        </table>
-    </div>
-</body>
-</html>
+##### Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Small image
+
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
+
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```
+The final element.
+```
