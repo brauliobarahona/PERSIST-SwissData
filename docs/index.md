@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: defaultb
 ---
 
 *Description of the project and its goals.*
