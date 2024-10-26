@@ -1,9 +1,14 @@
+---
+layout: default
+title: Simple Jekyll Webpage Template
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Webpage Template</title>
+    <title>{{ page.title }}</title>
     <style>
         /* General styles */
         body {
@@ -79,7 +84,7 @@
 
     <!-- Main content -->
     <div class="main-content">
-        <h1>Welcome to the Simple Webpage Template</h1>
+        <h1>{{ page.title }}</h1>
         <p>This is the main content area. Click on the links in the sidebar to jump to different sections.</p>
 
         <h2 id="section1">Section 1</h2>
