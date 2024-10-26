@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage Template</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            margin: 0;
+        }
+
+        /* Sidebar styles */
+        .sidebar {
+            width: 200px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            height: 100%;
+            padding: 20px;
+        }
+
+        .sidebar h2 {
+            font-size: 18px;
+            color: #ddd;
+            margin-top: 0;
+        }
+
+        .sidebar a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
+
+        .sidebar a:hover {
+            color: #fff;
+        }
+
+        /* Main content styles */
+        .main-content {
+            margin-left: 220px;
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        /* Table styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Navigation</h2>
+        <a href="#section1">Section 1</a>
+        <a href="#section2">Section 2</a>
+        <a href="#section3">Section 3</a>
+    </div>
+
+    <!-- Main content -->
+    <div class="main-content">
+        <h1>Welcome to the Simple Webpage Template</h1>
+        <p>This is the main content area. Click on the links in the sidebar to jump to different sections.</p>
+
+        <h2 id="section1">Section 1</h2>
+        <p>Content for Section 1.</p>
+
+        <h2 id="section2">Section 2</h2>
+        <p>Content for Section 2.</p>
+
+        <h2 id="section3">Section 3 - Table Example</h2>
+        <table>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+            <tr>
+                <td><a href="https://example.com">Example Link 1</a></td>
+                <td><a href="https://example.com">Example Link 2</a></td>
+                <td><a href="https://example.com">Example Link 3</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://example.com">Example Link 4</a></td>
+                <td><a href="https://example.com">Example Link 5</a></td>
+                <td><a href="https://example.com">Example Link 6</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
