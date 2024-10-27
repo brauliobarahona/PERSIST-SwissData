@@ -4,3 +4,5 @@ show_downloads: false
 google_analytics:
 theme: null
 url: https://brauliobarahona.github.io/PERSIST-SwissData/
+plugins:
+  - jekyll-seo-tag
