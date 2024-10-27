@@ -2,4 +2,5 @@ title: PERSIST project | Swiss datasets
 description: Datasets accessible for the PERSIST project
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-leap-dayB
+theme: null
+url: https://brauliobarahona.github.io/PERSIST-SwissData/
