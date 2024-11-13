@@ -24,3 +24,10 @@ The following are datasets that are relevant to the PERSIST project. The dataset
 
 # References 
 ...
+
+# Acknowledgements and further information
+
+The PERSIST project is funded by the public-public partnership Driving Urban Transitions ([DUT](https://dutpartnership.eu/)) in the 2022 call.
+- [ ] [List of funded projects.](https://dutpartnership.eu/funding-opportunities/dut_call_2022/funded-projects/) 
+- [ ] [Projects catalog.](https://dutpartnership.eu/news/projects-catalogue-call2022/)
+- [ ] Funding for activities by Swiss research parnets is provided by the Swiss Federal Office of Energy (SFOE) under project numner [SI/502694](https://www.aramis.admin.ch/Grunddaten/?ProjectID=53918).
